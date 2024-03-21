@@ -1,0 +1,26 @@
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 4em;
+    padding: 1em;
+    color: white;
+    background-color: rgb(62, 62, 236);
+    border: none;
+    border-radius: 4vh;
+    position: relative;
+} 
+
+.text1{
+    font-size:1.2em;
+}
+
+@media screen and (max-width: 400px) {
+    .btn1 {
+      width: 5em; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .text1{
+        font-size: 1em;
+    }
+  }
